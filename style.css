@@ -200,6 +200,64 @@ footer a:hover {
     height: 100%;
 }
 
+/* Contact Forms */
+
+form input, 
+form textarea{
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1.25px solid #9b9b81;
+  outline: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+  background-color: #c9c9b4;
+}
+
+form input:focus,
+form textarea:focus{
+  border-color: #3b3b32;
+}
+
+textarea{
+  min-height: 6rem;
+}
+
+form label{
+  margin-top: 1rem;
+  display: block;
+  color: inherit; 
+  font-weight: 800;
+}
+
+form button{
+  background-color: #9b9b81;
+  color: inherit;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 0rem;  
+  border-radius: 10px;
+}
+
+form button:hover{
+  background-color: #c9c9b4;
+  border-color: #c9c9b4;
+  color: black;
+}
+
+.inline{
+    display:inline;
+    width:initial;
+    margin-bottom: 1rem;
+  }
+  
+.text{
+margin-left: 1rem;
+}
+
 /* SM - max-width in pixels approximately 768px */
 @media(max-width: 48em) {
 
